@@ -6,15 +6,15 @@ This retrofit kit converts the 4-pin and 5-pin E-stop connectors on old dVRK box
 
 ![](docs/20180611_0012.jpg)
 
-**Why do I want the new 4-and-5-pin connectors?** The new connectors allow you to use the [JHU-style configurable serial connection](), so you can quickly reconfigure the dVRK into two or more systems (e.g. one workstation for the MTMs, and another workstation for the PSMs) for different research needs. 
+**Why do I want the new 4-and-5-pin connectors?** The new connectors allow you to use the [JHU-style configurable serial connection](#making-the-cables), so you can quickly reconfigure the dVRK into two or more systems (e.g. one workstation for the MTMs, and another workstation for the PSMs) for different research needs. 
 
 ![](docs/20180611_0001.jpg)
 
-dVRK with retrofit applied at JHU. Top three boxes are connected to one safety chain, and the bottom one is connected to another. PSM3 is used as an one-arm-only dVRK.
+dVRK at JHU with retrofit applied. Top three boxes are connected to one safety chain, and the bottom one is connected to another. PSM3 is used as an one-arm-only dVRK.
 
 # Which "type" do I need?
 
-Look at the back side (connector side) of the dVRK boxes. If you only see a green four-pin *saftey* (sic) chain connector, you need `type iv`. If you only see a green five-pin connector, you need `type v`.
+Look at the back side (connector side) of the dVRK boxes. If you only see a green four-pin safety chain connector, you need `type iv`. If you only see a green five-pin connector, you need `type v`.
 
 The "types" are silkscreened on the retrofit kit PCB. `type iv` has a four-pin PCB mount plug. `type v` has a five-pin plug.
 
@@ -42,13 +42,13 @@ Please use the following diagram as reference to make the cables.
 
 ![](docs/dvrk-estop.png)
 
-You can use any 3-wire (or more) cables to make the daisy-chain cables. The cable normally carries no more than a few milliamps of current. However, in fault conditions such as shorting caused by broken insulation, the 12V pin can provide enough energy to start a fire. Please use caution and good practices when wiring. We recommend using stranded wires and wire ferrules.
+You can use any 3-wire (or more) cables to make the daisy-chain cables. The cable normally carries no more than a few milliamps of current. However, in fault conditions such as a short caused by broken insulation, the 12V pin can provide enough energy to start a fire. Please use caution and good practices when wiring. We recommend using stranded wires and wire ferrules.
 
 ## Plugging it in
 
 ![](docs/20180611_0003.jpg)
 
-If you are using the `type v`, you can directly plug the PCB assembly into the green connector behind the box, then plug the e-stop, cables, and termination plugs into the PCB assembly. 
+If you are using the `type v`, you can directly plug the PCB assembly into the green connector behind the box, then plug the e-stop button, daisy-chain cables, and termination plugs into the PCB assembly. 
 
 If you are using the `type iv`, you can directly plug the PCB assembly into the green connector behind the box if all boxes are sharing the same ground. Usually they are because their ground pin in the IEC connectors are connected at the power strip. If your e-stop already works, you probably have a working ground connection. 
 
@@ -60,10 +60,9 @@ You can 3D print a shroud to make the board sit nicer on the back panel. If you 
 
 # Making your own boards/getting more connectors
 
-Check releases of this repository for the latest gerber files for the PCB. You can upload it to your favorite PCB fab. If you only need a couple and you are located in the US, you can try OSHPark.
+Check releases of this repository for the latest gerber files for the PCB. You can upload it to your favorite PCB fab. If you only need a couple boards and you are located in the US, OSHPark is a good option.
 
 The 5.08mm connectors are very standard and a lot of companies make them. If you are looking for more plugs so you can have multiple e-stop chain, get the cheapest connectors from [these](https://www.digikey.com/products/en/connectors-interconnects/terminal-blocks-headers-plugs-and-sockets/370?FV=1600018%2C1600006%2C1640056%2Cffe00172%2C2dc1f64%2C2dc1f65%2C2dc1f66%2C2dc1f67%2C2dc1f68%2C2dc1f6c%2C2dc1f6d&quantity=0&ColumnSort=0&page=1&pageSize=25). [This
 (4-pin)](https://www.digikey.com/product-detail/en/phoenix-contact/1776155/277-6223-ND/348998) and [this (5-pin)](https://www.digikey.com/product-detail/en/phoenix-contact/1776142/277-6473-ND/348997) are particularly nice.
 
 The PCB mount plugs are hard to find. We used Wurth Elektronik 691307500004 and 691307500005.
-

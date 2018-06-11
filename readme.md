@@ -62,7 +62,7 @@ You can 3D print a shroud to make the board sit nicer on the back panel. If you 
 
 Check releases of this repository for the latest gerber files for the PCB. You can upload it to your favorite PCB fab. If you only need a couple boards and you are located in the US, OSHPark is a good option.
 
-The 5.08mm connectors are very standard and a lot of companies make them. If you are looking for more plugs so you can have multiple e-stop chain, get the cheapest connectors from [these](https://www.digikey.com/products/en/connectors-interconnects/terminal-blocks-headers-plugs-and-sockets/370?FV=1600018%2C1600006%2C1640056%2Cffe00172%2C2dc1f64%2C2dc1f65%2C2dc1f66%2C2dc1f67%2C2dc1f68%2C2dc1f6c%2C2dc1f6d&quantity=0&ColumnSort=0&page=1&pageSize=25). [This
-(4-pin)](https://www.digikey.com/product-detail/en/phoenix-contact/1776155/277-6223-ND/348998) and [this (5-pin)](https://www.digikey.com/product-detail/en/phoenix-contact/1776142/277-6473-ND/348997) are particularly nice.
+The 5.08mm connectors are very standard and a lot of companies make them. If you are looking for more plugs so you can have multiple e-stop chains, any of [these](https://www.digikey.com/products/en/connectors-interconnects/terminal-blocks-headers-plugs-and-sockets/370?FV=1600018%2C1600006%2C1640056%2Cffe00172%2C2dc1f64%2C2dc1f65%2C2dc1f66%2C2dc1f67%2C2dc1f68%2C2dc1f6c%2C2dc1f6d&quantity=0&ColumnSort=0&page=1&pageSize=25) will do. [This
+(4-pin)](https://www.digikey.com/product-detail/en/phoenix-contact/1776155/277-6223-ND/348998) and [this (5-pin)](https://www.digikey.com/product-detail/en/phoenix-contact/1776142/277-6473-ND/348997) are particularly nice because they have zip tie anchors.
 
 The PCB mount plugs are hard to find. We used Wurth Elektronik 691307500004 and 691307500005.

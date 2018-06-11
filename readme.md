@@ -38,7 +38,7 @@ You should receive an assembled PCB with one screw terminal plug connector for e
 
 ## Making the cables
 
-Please use the following diagram as reference to make the cables.
+Please use the following diagram as a reference to make the cables.
 
 ![](docs/dvrk-estop.png)
 

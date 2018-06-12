@@ -20,17 +20,17 @@ The "types" are silkscreened on the retrofit kit PCB. `type iv` has a four-pin P
 
 ![](docs/20180611_0007.jpg)
 
-This is a four-pin green connector. You need `type iv`.
+Above is a four-pin green connector. You need `type iv`.
 
 ![](docs/20180611_0002.jpg)
 
-This is a five-pin green connector. You need `type v`.
+Above is a five-pin green connector. You need `type v`.
 
 ![](docs/20180611_0009.jpg)
 
-If your boxes have these four-pin and five-pin connectors, you have the latest connector and you do not need this retrofit kit.
+If your dVRK boxes have these four-pin and five-pin connectors, you have the latest connector and you do not need this retrofit kit.
 
-If your boxes have two five-pin connectors, you do not need this retrofit kit. You can (and should) still use the wiring documented below, but ignore the extra 12V pin.
+If your dVRK boxes have two five-pin connectors, you do not need this retrofit kit. You can (and should) still use the wiring documented below, but ignore the extra `12V` pin.
 
 # How to use
 
@@ -42,7 +42,7 @@ Please use the following diagram as a reference to make the cables.
 
 ![](docs/dvrk-estop.png)
 
-You can use any 3-wire (or more) cables to make the daisy-chain cables. The cable normally carries no more than a few milliamps of current. However, in fault conditions such as a short caused by broken insulation, the 12V pin can provide enough energy to start a fire. Please use caution and good practices when wiring. We recommend using stranded wires and wire ferrules.
+You can use any 3-wire (or more) cables to make the cables. The cable normally carries no more than a few milliamps of current. We strongly recommend using stranded wires, as solid wires tend to fracture under repeated flexing. We recommend using wire ferrules for aesthetics and strain relief, but inserting the bare stranded wires into the screw terminals is fine.
 
 ## Plugging it in
 

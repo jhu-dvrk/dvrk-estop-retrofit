@@ -18,13 +18,15 @@ Look at the back side (connector side) of the dVRK boxes. If you only see a gree
 
 The "types" are silkscreened on the retrofit kit PCB. `type iv` has a four-pin PCB mount plug. `type v` has a five-pin plug.
 
+## Four-pin green connector. You need `type iv`.
+
 ![](docs/20180611_0007.jpg)
 
-Above is a four-pin green connector. You need `type iv`.
+## Five-pin green connector. You need `type v`.
 
 ![](docs/20180611_0002.jpg)
 
-Above is a five-pin green connector. You need `type v`.
+## Four-and-five-pin connector. You do not need this.
 
 ![](docs/20180611_0009.jpg)
 

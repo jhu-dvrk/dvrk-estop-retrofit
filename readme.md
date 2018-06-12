@@ -14,7 +14,7 @@ dVRK at JHU with retrofit applied. Top three boxes are connected to one safety c
 
 # Which "type" do I need?
 
-Look at the back side (connector side) of the dVRK boxes. If you only see a green four-pin safety chain connector, you need `type iv`. If you only see a green five-pin connector, you need `type v`.
+Look at the back side (connector side) of the dVRK boxes. If you only see a green four-pin safety chain connector, you need `type iv`. If you only see a green five-pin connector, you need `type v`. Please check the visual identification guide below.
 
 The "types" are silkscreened on the retrofit kit PCB. `type iv` has a four-pin PCB mount plug. `type v` has a five-pin plug.
 
@@ -22,17 +22,21 @@ The "types" are silkscreened on the retrofit kit PCB. `type iv` has a four-pin P
 
 ![](docs/20180611_0007.jpg)
 
+
 ## Five-pin green connector. You need `type v`.
 
 ![](docs/20180611_0002.jpg)
 
-## Four-and-five-pin connector. You do not need this.
+
+## Four-pin and five-pin connectors. Retrofit not needed.
 
 ![](docs/20180611_0009.jpg)
 
-If your dVRK boxes have these four-pin and five-pin connectors, you have the latest connector and you do not need this retrofit kit.
+If your dVRK boxes have these four-pin and five-pin connectors, you have the latest connector and you do not need this retrofit kit. Your system is probably already wired as recommeded [below](#making-the-cables).
 
-If your dVRK boxes have two five-pin connectors, you do not need this retrofit kit. You can (and should) still use the wiring documented below, but ignore the extra `12V` pin.
+##  Two five-pin connectors. Retrofit not needed.
+
+If your dVRK boxes have two five-pin connectors, you do not need this retrofit kit. You can (and should) still use the wiring documented [below](#making-the-cables), but ignore the extra `12V` pin.
 
 # How to use
 

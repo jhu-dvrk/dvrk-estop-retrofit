@@ -28,15 +28,19 @@ The "types" are silkscreened on the retrofit kit PCB. `type iv` has a four-pin P
 ![](docs/20180611_0002.jpg)
 
 
+##  Two five-pin connectors. Retrofit optional using `type v`.
+
+If your dVRK boxes have two five-pin connectors, you can install `type v` as shown below.
+
+![](docs/safety_chain_retrofit_univr.jpg)
+
+Alternatively, you can use the wiring documented [below](#making-the-cables) with your existing connectors, but ignore the extra `12V` pin.
+
 ## Four-pin and five-pin connectors. Retrofit not needed.
 
 ![](docs/20180611_0009.jpg)
 
 If your dVRK boxes have these four-pin and five-pin connectors, you have the latest connector and you do not need this retrofit kit. Your system is probably already wired as recommeded [below](#making-the-cables).
-
-##  Two five-pin connectors. Retrofit not needed.
-
-If your dVRK boxes have two five-pin connectors, you do not need this retrofit kit. You can (and should) still use the wiring documented [below](#making-the-cables), but ignore the extra `12V` pin.
 
 # How to use
 
@@ -58,7 +62,7 @@ If you are using the `type v`, you can directly plug the PCB assembly into the g
 
 If you are using the `type iv`, you can directly plug the PCB assembly into the green connector behind the box if all boxes are sharing the same ground. Usually they are because their ground pin in the IEC connectors are connected at the power strip. If your e-stop already works, you probably have a working ground connection. 
 
-The four-pin e-stop connector does not have a ground pin. If you suspect that you are having a grounding problem, you can replace the screw in the panel-mount green receptacle with longer ones that will extend to the retrofit board. The screw holes on the retrofit PCB are all connected to the ground pins. 
+The single four-pin e-stop connector does not have a ground pin. If you suspect that you are having a grounding problem, you can replace the screw in the panel-mount green receptacle with longer ones that will extend to the retrofit board. The screw holes on the retrofit PCB are all connected to the ground pins.
 
 Once you connect all e-stop buttons, cables, and termination plugs, the e-stop should work. Happy dVRKing!
 
